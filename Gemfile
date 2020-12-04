@@ -1,10 +1,9 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
-gem 'activerecord', :require => 'active_record'
-gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
-
+gem 'activerecord', '~> 5.0', '>= 5.0.0.1'
+gem 'sinatra-activerecord'
 gem 'sinatra'
-gem 'sqlite3'
+gem 'sqlite3', '~> 1.4'
 gem 'shotgun'
 gem 'tux'
 gem 'pry'
