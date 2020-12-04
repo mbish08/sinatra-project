@@ -9,5 +9,3 @@ ActiveRecord::Base.establish_connection({
 })
 
 require_relative '../app/coffee'
-require './app'
-require_all 'models'
