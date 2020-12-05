@@ -5,6 +5,7 @@ class CreateCoffees < ActiveRecord::Migration[5.2]
       t.string :flavor
       t.string :roast_type
       t.float :rating
+      t.integer :user_id
     end 
   end
 end
