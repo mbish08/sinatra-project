@@ -8,4 +8,4 @@ ActiveRecord::Base.establish_connection({
   :database => "db/#{ENV['SINATRA_ENV']}.sqlite3"
 })
 
-require_relative '../app/coffee'
+require_all 'app'
